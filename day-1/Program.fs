@@ -24,5 +24,4 @@ let main argv =
     let filename = "input.txt"
     first filename
     second filename
-                 // (fun xs -> match xs |> Seq.toList with | head :: tail -> Seq.fold (fun (s, c) t -> if t < s then (t, c + 1) else (t, c)) (head, 0) tail |> snd | _ -> 0)
-    0 // return an integer exit code
+    0
